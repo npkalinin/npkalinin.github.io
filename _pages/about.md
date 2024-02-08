@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliation</a>. Vienna Austria. 
+subtitle: <a href='https://ist.ac.at/en/research/lampert-group/'>Institute of Science and Technology (ISTA)</a>. Vienna Austria. 
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
     <p>Vienna, Austria</p>
 
