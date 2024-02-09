@@ -20,7 +20,7 @@ social: false # includes social icons at the bottom of the page
 
 
 
-Greetings! I am Nikita Kalinin, a PhD student  in the Institute of Science and Technology Austria (ISTA), fortunate to be under the supervision of <a href='https://ist.ac.at/en/research/lampert-group/'>Christoph Lampert</a>. I am exploring the intriguing field of Differential Privacy as part of my recent academic journey. I am particularly interested to the following topics:
+Greetings! I am Nikita Kalinin, a PhD student  in the Institute of Science and Technology Austria (ISTA), fortunate to be under the supervision of <a href='https://ist.ac.at/en/research/lampert-group/'>Christoph Lampert</a>. I am exploring the intriguing field of Differential Privacy as part of my recent academic journey. I am particularly interested in the following topics:
 
 
 <ul>
