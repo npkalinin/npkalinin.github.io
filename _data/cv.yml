@@ -2,96 +2,75 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Nikita Kalinin
+    - name: email
+      value: nikita.kalinin [at] ist.ac.at
     - name: Date of Birth
-      value: 14th March 1879
+      value: 31st March 2000
     - name: Languages
-      value: English, German
+      value: Russian (Native), English C1, German B1
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+    - title: PhD in Machine Learning
+      institution: Institute of Science and Technology Austria
+      year: 2022-2027
+      
+    - title: Master’s-level program in Data Science
+      institution: Yandex School of Data Analysis
+      year: 2019 - 2021
+      description: GPA 4.93/5
+
+    - title: Exchange students program in Computer Scince master program
+      institution: University of Helsinki
+      year: 2021
+      
+    - title: BS in Computer Science
+      institution: Higher School of Economics, Moscow, Russia
+      year: 2018-2022
+      description: GPA 9.12/10
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
-      description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+    - title: Engineer in Computer Vision Laboratory
+      institution: Huawei Moscow Research Center
+      year: 2021-2022
+      
+    - title: Scientific summer intern 
+      institution: Institute of Science and Technology Austria (ISTA) 
+      year: 2021
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
+    - title: Scientific intern
+      institution: Laboratory of Methods for Big Data Analysis (LAMBDA) HSE 
+      year: 2020-2021
+      description: Scientific intern on the project of inference of molecular interaction potential with machine learning
 
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
+    - title: Summer intern 
+      institution: Yandex, Moscow Russia
+      year: 2020
+      description: Machine learning developer intern in Media services
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
 
 - title: Honors and Awards
   type: time_table
   contents:
-    - year: 1921
+    - year: 2020
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - First Prize of International Math Competition
+        - Third Prize of ICPC Moscow Regional Contest
+    - year: 2017
       items:
-        - Max Planck Medal
+        - Silver medal of Romanian Masters of physics 2017 as a part of a national team 
+        
 
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+#- title: Academic Interests
+#  type: nested_list
+#  contents:
+#    - title: Differential Privacy
+#      items:
+#        - Data Adaptive Differential Privacy
+#        - Differentially private machine learning
+#        - Private parameter estimation
 
-- title: Other Interests
-  type: list
-  contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
