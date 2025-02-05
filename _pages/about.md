@@ -24,8 +24,8 @@ Greetings! I am Nikita Kalinin, a PhD student  in the Institute of Science and T
 
 
 <ul>
-  <li>Data Adaptive Differential Privacy</li>
-  <li>Differentially Private Federated Learning</li>
+  <li>Matrix Factorization Mechanism in Differential Privacy</li>
+  <li>Differentially Private Model Training</li>
   <li>Differentially Private Parameter Estimation</li>
 </ul>
 
