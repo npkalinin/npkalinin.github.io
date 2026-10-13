@@ -3,7 +3,7 @@
  ******************************************************************************/
 
 body {
-  padding-bottom: 70px;
+  padding-bottom: 2rem;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
 
@@ -35,6 +35,37 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+  }
+}
+
+.about-page {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+  align-items: start;
+}
+
+.about-page > .profile {
+  width: 220px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.about-content {
+  min-width: 0;
+}
+
+@media (min-width: 992px) {
+  .about-page.has-profile {
+    grid-template-columns: 320px minmax(0, 1fr);
+    column-gap: 12rem;
+  }
+
+  .about-page > .profile {
+    position: sticky;
+    top: 6.5rem;
+    width: 320px;
+    margin: 0;
   }
 }
 

@@ -3,9 +3,24 @@ _site
 .sass-cache
 .jekyll-cache
 .jekyll-metadata
-.DS_store
+.DS_Store
 .ruby-version
 .tweet-cache
 Gemfile.lock
 node_modules/
-vendor
+vendor/
+
+# Private local configuration and tooling
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Local logs and editor temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~

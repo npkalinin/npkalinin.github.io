@@ -17,6 +17,7 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'mini_racer'
+    gem 'ostruct' # Required by jekyll-twitter-plugin on Ruby 4.
     gem 'unicode_utils'
     gem 'webrick'
 end
